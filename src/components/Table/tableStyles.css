@@ -1,7 +1,7 @@
 table {
 	font-family: arial, sans-serif;
-	border-collapse: collapse;
 	width: 100%;
+	border-collapse: collapse;
 }
 
 td,
@@ -13,4 +13,15 @@ th {
 
 tr:nth-child(even) {
 	background-color: #dddddd;
+}
+tr:hover {
+	background-color: #0f95a1;
+}
+table th,
+tfoot td {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #0f95a1;
+	color: #fafafa;
 }
