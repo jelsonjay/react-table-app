@@ -4,7 +4,9 @@ import { ColumnFilter } from '../Column/ColumnFilter'
 export const HeaderColumns = [
   {Header: 'ID', Footer:'ID', 
   accessor: 'id',
-  Filter: ColumnFilter
+  Filter: ColumnFilter,
+  disableFilters: true
+  
   },
 
   {Header: 'First Name', 
@@ -41,6 +43,6 @@ export const HeaderColumns = [
   {Header: 'Email', 
   Footer: 'Email', 
   accessor: 'email',
-   Filter: ColumnFilter
+  Filter: ColumnFilter
 }
 ]

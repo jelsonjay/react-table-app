@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ColumnFilter = ({filter, setFilter}) => {
+export const Filterings = ({filter, setFilter}) => {
 //const { filterValue, setFilter} = items
   return (
     <div className='search'>

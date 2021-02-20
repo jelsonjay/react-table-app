@@ -3,8 +3,8 @@ import './App.css';
 //import Table from './components/Table/index';
 //import Sorting from './components/Table/Sorting';
 //import FilteringTable from './components/Table/FilteringTable';
-import ColumnFilter from './components/Column/ColumnsFilters';
-
+//import ColumnFilter from './components/Column/ColumnsFilters';
+import FilteringTable from './components/Filtering/FilteringTable';
 
 function App() {
   return (
@@ -13,7 +13,8 @@ function App() {
     {/* <Table /> */}
     {/* <Sorting /> */}
     {/* <FilteringTable /> */}
-    <ColumnFilter />
+    {/* <ColumnFilter /> */}
+    <FilteringTable />
     </div>
   );
 }
