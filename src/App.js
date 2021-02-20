@@ -1,7 +1,10 @@
 import './App.css';
+
 //import Table from './components/Table/index';
 //import Sorting from './components/Table/Sorting';
-import FilteringTable from './components/Table/FilteringTable';
+//import FilteringTable from './components/Table/FilteringTable';
+import ColumnFilter from './components/Column/ColumnsFilters';
+
 
 function App() {
   return (
@@ -9,7 +12,8 @@ function App() {
     
     {/* <Table /> */}
     {/* <Sorting /> */}
-    <FilteringTable />
+    {/* <FilteringTable /> */}
+    <ColumnFilter />
     </div>
   );
 }

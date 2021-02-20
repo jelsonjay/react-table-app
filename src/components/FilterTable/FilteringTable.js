@@ -2,7 +2,7 @@ import React, {useMemo} from 'react'
 import {useTable, useGlobalFilter} from 'react-table'
 import MOCK_DATA from '../data/MOCK_DATA.json'
 import { GlobalFilter } from './GlobalFilter'
-import {HeaderColumns} from './Header'
+import {HeaderColumns} from '../Table/Header'
 import './tableStyles.css'
 
 const Sorting = () => {
