@@ -4,16 +4,24 @@ import MOCK_DATA from '../data/MOCK_DATA.json'
 import { Filterings } from './FilteringsTables'
 import {HeaderColumns} from '../Table/Header'
 import '../Table/tableStyles.css'
+import { ColumnFilter } from '../Column/ColumnFilter'
 
 const Filtering = () => {
  const columns = useMemo(() => HeaderColumns, [])
  const data = useMemo(() => MOCK_DATA, [])
+ 
+ const defaultColumn = useMemo(() => {
+  return {
+  Filter: ColumnFilter
+  }
+ }, [])
 
   const {rows, prepareRow, getTableProps, 
     footerGroups, getTableBodyProps, state, setGlobalFilter, 
     headerGroups} = useTable({
   columns,
   data,
+  defaultColumn
   }, 
   useFilters,
   useGlobalFilter)
