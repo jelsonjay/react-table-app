@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const RowSelections = ({filter, setFilter}) => {
+export const ColunnHidings = ({filter, setFilter}) => {
   return (
     <div>
     Search:

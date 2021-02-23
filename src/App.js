@@ -5,7 +5,9 @@ import './App.css';
 //import ColumnFilter from './components/Column/ColumnsFilters';
 //import FilteringTable from './components/Filtering/FilteringTable';
 //import Pagination from './components/Pagination/Pagination';
-import RowSelection from './components/RowSelect/RowSelection';
+//import RowSelection from './components/RowSelect/RowSelection';
+//import ColumnOrder from './components/ColumnOrder/ColumnOrder';
+import ColumnHiding from './components/ColumnHiding/ColumnHiding';
 
 
 
@@ -19,7 +21,9 @@ function App() {
     {/* <ColumnFilter /> */}
     {/* <FilteringTable /> */}
     {/* <Pagination /> */}
-    <RowSelection />
+    {/* <RowSelection /> */}
+    {/* <ColumnOrder /> */}
+    <ColumnHiding />
     </div>
   );
 }
